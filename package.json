@@ -1,6 +1,6 @@
 {
   "name": "iposita-business-request-create",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "\"a component which render iposita business request create\"",
   "main": "dist/index.js",
   "scripts": {
