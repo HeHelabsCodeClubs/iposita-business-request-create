@@ -76,3 +76,62 @@
 .ordersCreation .tableHeader .quickviewSearch, .quickviewBtn{
     background: #F8F9FB !important;
 }
+.orderWrapper.create-content{
+    min-height: 54.4rem;
+    overflow: scroll;
+    border-radius: 0.5rem;
+}
+.orderWrapper.create-content .create-form {
+    padding: 0 1rem !important;
+    max-height: 0rem;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.orderWrapper.create-content .create-form .package-title {
+    border-bottom: 1px solid #F8F9FB;
+    padding: 0.5rem 0;
+    font-family: "Gotham Bold";
+    cursor: pointer;
+}
+.orderWrapper.create-content .create-form .order-subtitle {
+    padding: 0.5rem 0; 
+    font-weight: 900;
+}
+.orderWrapper.create-content .create-form .order-plan {
+    padding: 0.5rem 15px 1rem 15px;
+    display: inline-block;
+}
+.orderWrapper.create-content .create-form .order-plan span {
+    padding: 0 2rem 0 0;
+}
+.orderWrapper.create-content .create-form form {
+    width: 100%;
+}
+.orderWrapper.create-content .create-form form .form-component {
+    padding: 0 !important;
+}
+.orderWrapper.create-content .create-form form .formList{
+    width: 100%;
+}
+.orderWrapper.create-content .create-form .submit-button .save {
+    padding: 0.3rem 3rem !important;
+    margin: 0 0.5rem;
+    background: #f7af4f !important;
+    color: #2a4466 !important;
+    border-radius: 0 0.4rem 0.4rem 0.4rem;
+    border: 0.5px solid #696565;
+}
+.orderWrapper.create-content .create-form .submit-button .cancel {
+    padding: 0.3rem 3rem !important;
+    margin: 0 0.5rem;
+    background: #F8F9FB !important;
+    color: #2a4466 !important;
+    border-radius: 0 0.4rem 0.4rem 0.4rem;
+    border: 0.5px solid #696565;
+}
+
+@media screen and (min-width: 960px) {
+    .orderWrapper.create-content .create-form {
+        padding: 0 2rem !important;
+    }  
+}
