@@ -1,0 +1,78 @@
+.ordersCreation .boldTitle{
+    margin-top: 1rem;
+}
+.ordersCreation .signUpBody {
+    width: 100%;
+    padding: 0.3rem !important;
+}
+.ordersCreation .signUpWrapper {
+    padding: 0;
+    margin: 0;
+}
+.ordersCreation .planSelection {
+    padding: 0rem !important;
+}
+.ordersCreation .planSelection .packageTitle{
+    margin:0 1rem;
+    border-bottom: 1px solid #ccc;
+    padding:1rem;
+    color: #2a4466;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.ordersCreation .orderTitle{
+    padding:1rem 2rem;
+    border-bottom: 1px solid #ccc;
+    color: #f7af4f;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.ordersCreation .signUpBody .authBtn {
+    margin-top: 0rem; 
+}
+.ordersCreation .text-center {
+    margin: 0 !important;
+    border-top: 1px solid #ccc;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ordersCreation .viewall-table {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.ordersCreation .viewall-table .view-table {
+    margin: 0rem 0rem;
+}
+.ordersCreation .viewall-table .ordersContent{
+    margin:0rem;
+    box-shadow:-1px 2px 20px#ccc;
+    margin-bottom: 2rem;
+}
+.ordersCreation .view-customers {
+    margin: 1rem 3rem !important;
+}
+.ordersCreation .tableHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: -1px 2px 20px #ccc;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.ordersCreation .tableHeader h5{
+    display: inline-block;
+    color:#f7af4f;
+    font-weight: 600;
+    margin: 1rem;
+    font-size: 1rem;
+}
+.ordersCreation .tableHeader .input-group-append {
+    display: inline;
+}
+.ordersCreation .tableHeader .quickviewSearch, .quickviewBtn{
+    background: #F8F9FB !important;
+}
