@@ -1,6 +1,4 @@
-import _ from 'lodash';
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 class IpositaBusinessRequestCreate extends Component {
@@ -33,20 +31,17 @@ class IpositaBusinessRequestCreate extends Component {
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 addpackage">
                                 <button className="authBtnTwo"
-                                onClick={addPackageClick}
+                                onClick={() => addPackageClick()}
                                 >{addPackageText}</button>
                             </div>
                             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 submit-button form-component">
-                                <Link to="/orders"><button type="cancel" className="authBtnTwo">Cancel</button></Link>
-                                <Link to=""
-                                onClick={submitClick}
-                                >
-                                <button type="submit" 
+                                <a href="/orders"><button type="cancel" className="authBtnTwo">Cancel</button></a>
+                                <button 
+                                onClick={() => submitClick()}
                                 className="authBtn"
                                 disabled={submitDisableState}>
                                 {submitBtnText}
                                 </button>
-                                </Link>
                             </div>
                         </div>
                     </div>
